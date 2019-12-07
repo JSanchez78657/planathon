@@ -1,6 +1,14 @@
+import org.neo4j.graphdb.RelationshipType;
+
 import java.util.*;
 import java.time.ZonedDateTime;
 public class Database {
+    private enum Relationships implements RelationshipType {// implements RelationshipType {
+        ATTENDING,
+        NEEDED,
+        BRINGING
+    }
+
     public Dictionary data = new Hashtable();
     public void addEvent(String event_name, ZonedDateTime date, String Location){}
     public void deleteEvent(){}

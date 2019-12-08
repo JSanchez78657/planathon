@@ -14,15 +14,15 @@ public class Database {
     private GraphDatabaseService db;
     private File dbFile;
 
-    public final String NAME = "name";
-    public final String DATE = "date";
-    public final String LOCATION = "location";
-    public final String QUANTITY = "quantity";
+    public static final String NAME = "name";
+    public static final String DATE = "date";
+    public static final String LOCATION = "location";
+    public static final String QUANTITY = "quantity";
 
-    private final Label EVENT = Label.label("event");
-    private final Label PERSON = Label.label("person");
-    private final Label SUPPLY = Label.label("supply");
-    private final Label RELATIONSHIP = Label.label("relationship");
+    public static final Label EVENT = Label.label("event");
+    public static final Label PERSON = Label.label("person");
+    public static final Label SUPPLY = Label.label("supply");
+    public static final Label RELATIONSHIP = Label.label("relationship");
 
     public enum RelationshipTypes implements RelationshipType
     {

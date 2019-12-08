@@ -1,8 +1,18 @@
+import java.time.DateTimeException;
 import java.time.LocalDateTime;
 import java.util.*;
 public class Menu {
 
-    public Menu(){
+    private Database db;
+
+    public Menu(Database db)
+    {
+        this.db = db;
+        main_menu();
+    }
+
+    public void main_menu()
+    {
         Scanner input = new Scanner(System.in);
 
         int selection;
@@ -36,12 +46,15 @@ public class Menu {
         input.close();
     }
 
-    public void add_event_menu() {
+    public void add_event_menu()
+    {
         Scanner input_string = new Scanner(System.in);
         Scanner input = new Scanner(System.in);
         int year, month, day, hour, minute;
         System.out.println("Event Name: ");
         String event_name = input_string.nextLine();
+        System.out.println("Event Location");
+        String event_location = input_string.nextLine();
         System.out.println("Event Date and Time:");
         System.out.println("Year: ");
         year = input.nextInt();
@@ -54,8 +67,13 @@ public class Menu {
         System.out.println("Minute: ");
         minute = input.nextInt();
         System.out.println();
-        LocalDateTime date = LocalDateTime.of(year, month, day, hour, minute);
-        System.out.println(date);
+        try
+        {
+            LocalDateTime date = LocalDateTime.of(year, month, day, hour, minute);
+            db.addEvent(event_name, date, event_location);
+        }
+        catch (DateTimeException d) { System.out.println("Invalid date."); }
+
     }
 
     public void add_person_menu() {

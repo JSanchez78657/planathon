@@ -1,5 +1,9 @@
+import org.neo4j.graphdb.Node;
+import org.neo4j.graphdb.ResourceIterator;
+
 import java.time.LocalDateTime;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 public class Menu {
 
     public Menu(){
@@ -37,11 +41,10 @@ public class Menu {
     }
 
     public void add_event_menu() {
-        Scanner input_string = new Scanner(System.in);
         Scanner input = new Scanner(System.in);
         int year, month, day, hour, minute;
         System.out.println("Event Name: ");
-        String event_name = input_string.nextLine();
+        String event_name = input.nextLine();
         System.out.println("Event Date and Time:");
         System.out.println("Year: ");
         year = input.nextInt();
@@ -55,7 +58,30 @@ public class Menu {
         minute = input.nextInt();
         System.out.println();
         LocalDateTime date = LocalDateTime.of(year, month, day, hour, minute);
-        System.out.println(date);
+        System.out.println("Event Location: ");
+        String location = input.nextLine();
+        Database db = new Database("Cooper");
+        int selection;
+        do{
+            System.out.println("Add Attendee");
+            ResourceIterator<Node> people = db.getPeople();
+            int i = 1;
+            ArrayList<Node> people_table = new ArrayList<Node>();
+            while(people.hasNext())
+            {
+                people_table.add(people.next());
+                System.out.println(i + ") " + people.next().getProperty(Database.NAME));
+                i++;
+            }
+            System.out.println("0) Exit");
+            switch(selection) {
+                case 0:
+                    break;
+                default:
+                    //add people_table[selection] to party
+            }
+        }while(selection != 0);
+
     }
 
     public void add_person_menu() {

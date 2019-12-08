@@ -8,7 +8,8 @@ public class Main {
 
     public static void main(String[] args)
     {
-        Menu menu = new Menu();
+        Database db = new Database("Mark");
+        Menu menu = new Menu(db);
 //        Database db = new Database("TestServer");
 //        Node kevin = db.addPerson("Kevin");
 //        Node nachos = db.addSupply("Nachos", 2);

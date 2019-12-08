@@ -17,7 +17,7 @@ public class Database {
     public static final String NAME = "name";
     public static final String DATE = "date";
     public static final String LOCATION = "location";
-    public static final String QUANTITY = "quantistatic ty";
+    public static final String QUANTITY = "quantity";
 
     public static final Label EVENT = Label.label("event");
     public static final Label PERSON = Label.label("person");

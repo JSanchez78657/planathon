@@ -1,13 +1,10 @@
-import org.neo4j.cypher.internal.frontend.v2_3.ast.functions.Str;
 import org.neo4j.graphdb.*;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
-import org.neo4j.kernel.impl.factory.GraphDatabaseFacade;
 
-import javax.xml.crypto.Data;
 import java.io.File;
-import java.nio.file.Files;
-import java.util.*;
 import java.time.ZonedDateTime;
+import java.util.Dictionary;
+import java.util.Hashtable;
 public class Database {
 
     private GraphDatabaseService db;
@@ -27,7 +24,7 @@ public class Database {
     {
         ATTENDING,
         NEEDED,
-        BRINGING
+        BRINGING;
     }
 
     public Database(String filename) {

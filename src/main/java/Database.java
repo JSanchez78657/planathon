@@ -143,6 +143,44 @@ public class Database {
         return null;
     }
 
+    public ResourceIterator<Node> getEvents(Node node)
+    {
+        Node hold;
+        try (Transaction tx = db.beginTx())
+        {
+            String label = getLabel(node);
+            Result result = db.execute(
+                    "MATCH (n:person)-[:ATTENDING]->(m:event)\n" +
+                            "WHERE n.name = '" + node.getProperty(Database.NAME) + "'");
+            while(result.hasNext())
+            {
+                System.out.println(result.next());
+            }
+            tx.success();
+        }
+        catch(TransactionFailureException | QueryExecutionException t) { return null; }
+        return null;
+    }
+
+    public ResourceIterator<Node> getPeople(Node node)
+    {
+        Node hold;
+        try (Transaction tx = db.beginTx())
+        {
+            String label = getLabel(node);
+            Result result = db.execute(
+                    "MATCH (n:event)-[:ATTENDING]->(m:person)\n" +
+                            "WHERE n.name = '" + node.getProperty(Database.NAME) + "'");
+            while(result.hasNext())
+            {
+                System.out.println(result.next());
+            }
+            tx.success();
+        }
+        catch(TransactionFailureException | QueryExecutionException t) { return null; }
+        return null;
+    }
+
     public Relationship addRelationship(Node a, Node b, RelationshipType type)
     {
         Relationship relationship;

@@ -97,10 +97,7 @@ public class Menu {
         while(events.hasNext()) {
             Node event = events.next();
             System.out.println(event.getProperty(Database.NAME));
-            ResourceIterator<Node> people = db.getPeople(event);
-            while(people.hasNext()) {
-                System.out.println(people.next());
-            }
+            db.getPeople(event);
         }
     }
 
@@ -109,10 +106,7 @@ public class Menu {
         while(people.hasNext()) {
             Node person = people.next();
             System.out.println(person.getProperty(Database.NAME));
-            ResourceIterator<Node> events = db.getPeople(person);
-            while(events.hasNext()) {
-                System.out.println(events.next());
-            }
+            db.getEvents(person);
         }
     }
 }

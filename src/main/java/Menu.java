@@ -1,4 +1,5 @@
 import org.neo4j.graphdb.Node;
+import org.neo4j.graphdb.RelationshipType;
 import org.neo4j.graphdb.ResourceIterator;
 
 import java.time.LocalDateTime;
@@ -6,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Menu {
 
-    public Menu(){
+    public Menu(Database db){
         Scanner input = new Scanner(System.in);
 
         int selection;
@@ -20,16 +21,16 @@ public class Menu {
             selection = input.nextInt();
             switch(selection){
                 case 1:
-                    add_event_menu();
+                    add_event_menu(db);
                     break;
                 case 2:
-                    add_person_menu();
+                    add_person_menu(db);
                     break;
                 case 3:
-                    view_events_menu();
+                    view_events_menu(db);
                     break;
                 case 4:
-                    view_people_menu();
+                    view_people_menu(db);
                     break;
                 case 0:
                     break;
@@ -40,7 +41,7 @@ public class Menu {
         input.close();
     }
 
-    public void add_event_menu() {
+    public void add_event_menu(Database db) {
         Scanner input = new Scanner(System.in);
         int year, month, day, hour, minute;
         System.out.println("Event Name: ");
@@ -60,7 +61,7 @@ public class Menu {
         LocalDateTime date = LocalDateTime.of(year, month, day, hour, minute);
         System.out.println("Event Location: ");
         String location = input.nextLine();
-        Database db = new Database("Cooper");
+        Node myEvent = db.addEvent(event_name, date, location);
         int selection;
         do{
             System.out.println("Add Attendee");
@@ -74,25 +75,44 @@ public class Menu {
                 i++;
             }
             System.out.println("0) Exit");
+            selection = input.nextInt();
             switch(selection) {
                 case 0:
                     break;
                 default:
-                    //add people_table[selection] to party
+                    db.addRelationship(people_table.get(selection-1),  myEvent, Database.RelationshipTypes.ATTENDING);
             }
         }while(selection != 0);
-
     }
 
-    public void add_person_menu() {
-
+    public void add_person_menu(Database db) {
+        System.out.println("Name: ");
+        Scanner input = new Scanner(System.in);
+        String name = input.nextLine();
+        db.addPerson(name);
     }
 
-    public void view_events_menu() {
-
+    public void view_events_menu(Database db) {
+        ResourceIterator<Node> events = db.getAllLabel(Database.EVENT);
+        while(events.hasNext()) {
+            Node event = events.next();
+            System.out.println(event.getProperty(Database.NAME));
+            ResourceIterator<Node> people = db.getPeople(event);
+            while(people.hasNext()) {
+                System.out.println(people.next());
+            }
+        }
     }
 
-    public void view_people_menu() {
-
+    public void view_people_menu(Database db) {
+        ResourceIterator<Node> people = db.getPeople();
+        while(people.hasNext()) {
+            Node person = people.next();
+            System.out.println(person.getProperty(Database.NAME));
+            ResourceIterator<Node> events = db.getPeople(person);
+            while(events.hasNext()) {
+                System.out.println(events.next());
+            }
+        }
     }
 }

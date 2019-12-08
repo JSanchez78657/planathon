@@ -3,6 +3,7 @@ import org.neo4j.graphdb.*;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 import org.neo4j.kernel.impl.factory.GraphDatabaseFacade;
 
+import javax.management.relation.Relation;
 import javax.xml.crypto.Data;
 import java.io.File;
 import java.nio.file.Files;
@@ -36,8 +37,6 @@ public class Database {
         db = new GraphDatabaseFactory().newEmbeddedDatabase(dbFile);
     }
 
-    public Dictionary data = new Hashtable();
-
     public Node addEvent(String event_name, LocalDateTime date, String location)
     {
         Node node;
@@ -64,11 +63,6 @@ public class Database {
         return nodes;
     }
 
-    public Dictionary getEvent()
-    {
-        return data;
-    }
-
     public Node addPerson(String name)
     {
         Node node;
@@ -80,18 +74,6 @@ public class Database {
         }
         catch(TransactionFailureException t) { return null; }
         return node;
-    }
-
-    public ResourceIterator<Node> getPeople()
-    {
-        ResourceIterator<Node> nodes;
-        try (Transaction tx = db.beginTx())
-        {
-            nodes = db.findNodes(PERSON);
-            tx.success();
-        }
-        catch(TransactionFailureException t) { return null; }
-        return nodes;
     }
 
     public ResourceIterator<Node> getPerson(String name)
@@ -131,7 +113,7 @@ public class Database {
                     CypherQueries.LabelToNameRelationship(
                             label,
                             node.getProperty(NAME).toString(),
-                            (label.equals(EVENT.toString())) ? EVENT.toString() : PERSON.toString()) +
+                            (label.equals(EVENT.toString())) ? RelationshipTypes.NEEDED.toString() : RelationshipTypes.BRINGING.toString()) +
                     "RETURN *");
             while(result.hasNext())
             {
@@ -193,13 +175,26 @@ public class Database {
         return relationship;
     }
 
+    public Iterator<Node> getAllLabel(Label label)
+    {
+        Iterator<Node> nodes;
+        try (Transaction tx = db.beginTx())
+        {
+            nodes = db.execute("MATCH (n:" + label + ") RETURN *").columnAs("n");
+            tx.success();
+        }
+        catch(TransactionFailureException t) { return null; }
+        return nodes;
+    }
+
+
+
     public void printNode(Node node)
     {
-        System.out.println(node.getId() + ":");
-        for (Label s : node.getLabels()) System.out.print(s + " ");
-        System.out.println();
-        for (String s : node.getPropertyKeys()) System.out.print(node.getProperty(s) + " ");
-        System.out.println();
+        String label = getLabel(node);
+        switch(getLabel(node))
+        {
+        }
     }
 
     public String getLabel(Node node) {

@@ -1,9 +1,9 @@
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.RelationshipType;
 import org.neo4j.graphdb.ResourceIterator;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 public class Menu {
 
@@ -65,7 +65,7 @@ public class Menu {
         int selection;
         do{
             System.out.println("Add Attendee");
-            ResourceIterator<Node> people = db.getPeople();
+            Iterator<Node> people = db.getAllLabel(Database.PERSON);
             int i = 1;
             ArrayList<Node> people_table = new ArrayList<Node>();
             while(people.hasNext())
@@ -93,7 +93,7 @@ public class Menu {
     }
 
     public void view_events_menu(Database db) {
-        ResourceIterator<Node> events = db.getAllLabel(Database.EVENT);
+        Iterator<Node> events = db.getAllLabel(Database.EVENT);
         while(events.hasNext()) {
             Node event = events.next();
             System.out.println(event.getProperty(Database.NAME));
@@ -102,7 +102,7 @@ public class Menu {
     }
 
     public void view_people_menu(Database db) {
-        ResourceIterator<Node> people = db.getPeople();
+        Iterator<Node> people = db.getAllLabel(Database.PERSON);
         while(people.hasNext()) {
             Node person = people.next();
             System.out.println(person.getProperty(Database.NAME));

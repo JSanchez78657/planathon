@@ -1,0 +1,1239 @@
+2019-12-07 21:00:04.675+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 6631559168 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2019-12-07 21:00:04.961+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2019-12-07 21:00:05.129+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'database' database.
+2019-12-07 21:00:05.165+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database database unavailable.
+2019-12-07 21:00:05.166+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database database is unavailable.
+2019-12-07 21:00:05.187+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2019-12-07 21:00:05.187+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=database
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2019-12-07 21:00:05.188+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2019-12-07 21:00:05.189+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2019-12-07 21:00:05.189+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2019-12-07 21:00:05.189+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2019-12-07 21:00:05.189+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2019-12-07 21:00:05.189+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2019-12-07 21:00:05.189+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2019-12-07 21:00:05.196+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 15.88 GB
+2019-12-07 21:00:05.196+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 9.54 GB
+2019-12-07 21:00:05.196+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 552.02 MB
+2019-12-07 21:00:05.197+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 18.26 GB
+2019-12-07 21:00:05.197+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 10.73 GB
+2019-12-07 21:00:05.197+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2019-12-07 21:00:05.197+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 222.78 MB
+2019-12-07 21:00:05.197+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 245.50 MB
+2019-12-07 21:00:05.197+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 3.53 GB
+2019-12-07 21:00:05.199+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2019-12-07 21:00:05.199+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2019-12-07 21:00:05.199+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.81 MB, used=5.79 MB, max=240.00 MB, threshold=0.00 B
+2019-12-07 21:00:05.200+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=20.50 MB, used=19.71 MB, max=-1.00 B, threshold=0.00 B
+2019-12-07 21:00:05.200+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2.50 MB, used=2.34 MB, max=1.00 GB, threshold=0.00 B
+2019-12-07 21:00:05.200+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=64.00 MB, used=7.97 MB, max=1.30 GB, threshold=?
+2019-12-07 21:00:05.200+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=10.50 MB, used=10.48 MB, max=10.50 MB, threshold=?
+2019-12-07 21:00:05.200+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=171.00 MB, used=4.27 MB, max=2.65 GB, threshold=0.00 B
+2019-12-07 21:00:05.201+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2019-12-07 21:00:05.201+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 4
+2019-12-07 21:00:05.211+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 6960@BCS-410-1847
+2019-12-07 21:00:05.211+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2019-12-07 21:00:05.214+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: America/Los_Angeles
+2019-12-07 21:00:05.214+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2019-12-07 21:00:05.215+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2019-12-07 21:00:05.215+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Oracle Corporation
+2019-12-07 21:00:05.215+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 25.212-b10
+2019-12-07 21:00:05.215+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2019-12-07 21:00:05.215+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: [-Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant]
+2019-12-07 21:00:05.215+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunec.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2/1b6c4ff09ce03f3052429139c2a68e295cae6604/asm-6.2.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.profesorfalken/WMI4Java/1.6.1/628ef4ea73cd6046ddba222ab628eb9f521eb878/WMI4Java-1.6.1.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.8/222fc4cf714a63f27cbdafdbd863efd0d30c8a1e/commons-lang3-3.8.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/localedata.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-bolt/3.5.12/cfa739f34cd9289ac3dbe788640b70ca5ae6c120/neo4j-bolt-3.5.12.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\resources.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-spi-3.5/3.5.12/1f2869ee5f2853af0f168e9a5a945fcd762df6fe/neo4j-cypher-planner-spi-3.5-3.5.12.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-collections/3.5.12/7649d589c4144c5e297731e1f3403f0ec513f82b/neo4j-collections-3.5.12.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-2.3/2.3.12/d87e903d0b8a10b34ff8f6372362777e51bfbfbe/neo4j-cypher-frontend-2.3-2.3.12.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\jfr.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-csv/3.5.12/5fbd25275e38f1f8d6e0e781f2956cf8e5f834f2/neo4j-csv-3.5.12.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/zipfs.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-algo/3.5.12/78d8285330cc57622f16f8385a0cbfacd82fa74d/neo4j-graph-algo-3.5.12.jar
+2019-12-07 21:00:05.219+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-rewriting-3.5/3.5.12/9c4a4009cc356b41127006932fdf12de4ca40707/neo4j-rewriting-3.5-3.5.12.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-command-line/3.5.12/75dd1aa10b42c675587db8b640cd66b0b36ecf3e/neo4j-command-line-3.5.12.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-logical-plans-3.4/3.4.15/f7674056b605b7f8436e151a0141d55993d52aea/neo4j-cypher-logical-plans-3.4-3.4.15.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.eclipse.collections/eclipse-collections/9.2.0/f2f2406e2229497935b6e7dd6c41da7fd67f36a8/eclipse-collections-9.2.0.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/bd47ad3bd14b8e82595c7adaa143501e60842a84/bcprov-jdk15on-1.60.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\sunrsasign.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-diagnostics/3.5.12/a37b42d31563c3dcc999aa02f76b63c155cf48c6/neo4j-diagnostics-3.5.12.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunjce_provider.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.1.7/a60ff9a54cbeb30ec44c89e16ac4c35913cbad5a/parboiled-core-1.1.7.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel-api/3.5.12/adae52e367b587257db8216ea26688805cd77dfa/neo4j-kernel-api-3.5.12.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\jce.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-fulltext-index/3.5.12/616c438fdce5e2be609655f77af5293773b1e80a/neo4j-fulltext-index-3.5.12.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/access-bridge-64.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-udc/3.5.12/9adcc88bb8a610dc1327e3c7b0868a15220c7bc8/neo4j-udc-3.5.12.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-io/3.5.12/48e14a2481b350d6d5b813c9e7b29126703bef/neo4j-io-3.5.12.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\jsse.jar
+2019-12-07 21:00:05.220+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.3.8-6/f67bee23f938085bc732ac81f634b922b24f13e6/zstd-jni-1.3.8-6.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.jprocesses/jProcesses/1.6.4/f0d9e30bb02f67bc2d3d9981664f8e57e4ad1f81/jProcesses-1.6.4.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/cldrdata.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-util-3.5/3.5.12/9ddbca7dca4ed3ae1539e2d1b93afc0b3ba6dab1/neo4j-util-3.5-3.5.12.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-values/3.5.12/1cc4a43c94060a03c7fecce37125aeced75751ab/neo4j-values-3.5.12.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/jfxrt.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.eclipse.collections/eclipse-collections-api/9.2.0/d106fd8588e542d2ee9d31d3e057af8bcb813396/eclipse-collections-api-9.2.0.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\rt.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-index/3.5.12/4202ba49a1e77f9bb788ac819b0aa9068ba4d3a1/neo4j-index-3.5.12.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j.licensing-proxy/zstd-proxy/3.5.12/6eca02a46deecdd492cb51f650c251b2fcea48e7/zstd-proxy-3.5.12.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-ir-3.5/3.5.12/bcc2262a2b34b5d17f7ff5a6b5a008b8bb37828b/neo4j-cypher-ir-3.5-3.5.12.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/5.5.5/6c965eb5838a2ba58b0de0fd860a420dcda11937/lucene-queryparser-5.5.5.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-expression-3.4/3.4.15/a0869aee6d9f928aa1666d7a72f17be4b9de874f/neo4j-cypher-expression-3.4-3.4.15.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.6.2/c8fd8817f9d2b2ced82f8968e0dd943aab557de0/caffeine-2.6.2.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-matching/3.1.9/5265d2eb2cc8df7bc66034b730d86be936ec76a9/neo4j-graph-matching-3.1.9.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/d0c46320fbc07be3a24eb13a56cee4e3d38e0c75/bcpkix-jdk15on-1.60.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-spatial-index/3.5.12/c8f4929a41148c115f5cfce0112774108f5244c1/neo4j-spatial-index-3.5.12.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher/3.5.12/20d07f258ef04a3cea5dee705a9cdfc0bb1ad374/neo4j-cypher-3.5.12.jar
+2019-12-07 21:00:05.221+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-ssl/3.5.12/ce57ce497ee27277f7949d422f68ff1c6909aa72/neo4j-ssl-3.5.12.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-spi-3.4/3.4.15/2087b04c1014ec7b146923f120572c651964bfab/neo4j-cypher-planner-spi-3.4-3.4.15.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/6.2/a9690730f92cc79eeadc20e400ebb41eccce10b1/asm-util-6.2.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.profesorfalken/jPowerShell/1.9/22a7cdf6e460b9738e751bef9634b1b7cee55130/jPowerShell-1.9.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-upgrade/3.5.12/fbcbd74949748c49c3cec40cc7b7d9c2b73c93b4/neo4j-lucene-upgrade-3.5.12.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\classes
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunmscapi.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-index/3.5.12/af8be7aea23518670c853be07cb3aa0d7029f521/neo4j-lucene-index-3.5.12.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-2.3/2.3.12/72ac3a861e32b681461d74523bfdadeeb6f8a72b/neo4j-cypher-compiler-2.3-2.3.12.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-logical-plans-3.5/3.5.12/626d9c7d049202f7ae16f755a1e3d1a265714b62/neo4j-cypher-logical-plans-3.5-3.5.12.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-util-3.4/3.4.15/93e1cd46d31435dcc0f0ad1ce802509a605385c/neo4j-cypher-util-3.4-3.4.15.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-3.5/3.5.12/5a888b319d55e99d29244574008a2da4754caa24/neo4j-cypher-planner-3.5-3.5.12.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-3.1/3.1.9/6bec4dee36c05a56d19791cacc887d815ebbefd7/neo4j-cypher-compiler-3.1-3.1.9.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.19/7e65777fb451ddab6a9c054beb879e521b7eab78/commons-compress-1.19.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-dbms/3.5.12/ef4a8f9d6f1bdbeed627a38f47727d91ad790418/neo4j-dbms-3.5.12.jar
+2019-12-07 21:00:05.222+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.32.Final/4bdf6727530e7eb14c597056730724533ad96648/netty-all-4.1.32.Final.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/IdeaProjects/Planathon2/build/classes/java/main/
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-scala_2.11/1.1.7/4e14ecb11f40f25216ce01dc349f541bc801354f/parboiled-scala_2.11-1.1.7.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-import-tool/3.5.12/9b2550cd3a80e2287ac3273177374b8506fd9028/neo4j-import-tool-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-jmx/3.5.12/10d0179548dc45544f56bb06dce653dbcf6dc1ec/neo4j-jmx-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-ast-3.5/3.5.12/6a9fdc4c364077cd73d029723fb5d6ac89d13a9/neo4j-ast-3.5-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-resource/3.5.12/5bcd93454517cdeec58d2f546847d794d9d8d044/neo4j-resource-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-parser-3.5/3.5.12/9b3954e2da84988c9fb9ec5efb88c2fd2050c28/neo4j-parser-3.5-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/jaccess.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graphdb-api/3.5.12/f187f4dc26d5314d174b3984b9518f8917a8344/neo4j-graphdb-api-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/openCypher-frontend-1/3.4.15/bc01696eeac3d7213666dfb5a75f641d9fc20be2/openCypher-frontend-1-3.4.15.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-data-collector/3.5.12/72a0b7d241321ddacef693cbfe35ea18d174de99/neo4j-data-collector-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/5.5.5/c34bcd9274859dc07cfed2a935aaca90c4f4b861/lucene-core-5.5.5.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/dnsns.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-logging/3.5.12/426e9d2c9e2235f9aafbe8229982ebf68efdfa9c/neo4j-logging-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel/3.5.12/cbe91da3ac0ee4add15268f7a085e3df4c68a3ed/neo4j-kernel-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-common/3.5.12/bd613039d6ab79811a7890fdf407ddaf9d0a38e7/neo4j-common-3.5.12.jar
+2019-12-07 21:00:05.223+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/6.2/c7d9a90d221cbb977848d2c777eb3aa7637e89df/asm-analysis-6.2.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-concurrent/3.5.12/bd8a6080aa4003612fe3b6aa4dbcd934dec207fd/neo4j-concurrent-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-3.4/3.4.15/7fcb6e2aa4c35af66d6068bf7838564e6c04535/neo4j-cypher-planner-3.4-3.4.15.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-codecs/5.5.5/e62864e51b3db16766d400b718ec848b3d66db6/lucene-codecs-5.5.5.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.12/2bb23c13c527566d9828107ca4108be2a2c06f01/scala-reflect-2.11.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-expressions-3.5/3.5.12/8e8b7fd97b80f0fa87f02dd3e6c00b4097d68c42/neo4j-expressions-3.5-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-consistency-check/3.5.12/1c4e84f3ce4064e83e86f2997af9325e4d0d8a48/neo4j-consistency-check-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-interpreted-runtime/3.5.12/dddfc2925e7e44072c5da0c8aa315ca2d481181b/neo4j-cypher-interpreted-runtime-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-unsafe/3.5.12/7a26b39485b9c488b87f6f37a2c24270ea79f7f3/neo4j-unsafe-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-codegen/3.5.12/2fa8c5e02a7c766a66dfdc33b056cfca423bfa8a/neo4j-codegen-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-procedure-api/3.5.12/df9ab7cec46f0b224d53c88911873400806b15e8/neo4j-procedure-api-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j/3.5.12/40d526ce3e2cb9cdadfcbbb7b648ede3a401a0e8/neo4j-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/IdeaProjects/Planathon2/build/resources/main
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-runtime-util/3.5.12/fe98307f6c28b383600059ff2127a64729a959ca/neo4j-cypher-runtime-util-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/6.2/61570e046111559f38d4e0e580c005f75988c0a6/asm-tree-6.2.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-legacy/3.5.12/4e2d09bb10e091560a3c0be6795e2beb7de4011/neo4j-legacy-3.5.12.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-3.1/3.1.9/239d40944641be2f8d453d9823ec3d195ff6d61/neo4j-cypher-frontend-3.1-3.1.9.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/5.5.5/e6b3f5d1b33ed24da7eef0a72f8062bd4652700c/lucene-analyzers-common-5.5.5.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/2eaf3d3c9746d526ff7e5b93931d482c3887e6ac/concurrentlinkedhashmap-lru-1.4.2.jar
+2019-12-07 21:00:05.224+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/nashorn.jar
+2019-12-07 21:00:05.225+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunpkcs11.jar
+2019-12-07 21:00:05.225+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.4/680b74de9c393bbf8d9e951af301659b16845907/commons-text-1.4.jar
+2019-12-07 21:00:05.225+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\charsets.jar
+2019-12-07 21:00:05.225+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-configuration/3.5.12/6138d2a7581612314b8644411186798a8f73d54d/neo4j-configuration-3.5.12.jar
+2019-12-07 21:00:05.225+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-ir-3.4/3.4.15/7ef83a5763f7a5e79f175418d5c32d576a209ab5/neo4j-cypher-ir-3.4-3.4.15.jar
+2019-12-07 21:00:05.225+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-front-end-3.5/3.5.12/143f5822a623175dcba5c29f41ddd98ac01f2efc/neo4j-front-end-3.5-3.5.12.jar
+2019-12-07 21:00:05.225+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-annotation-processors/3.5.12/e81002f65e7900e3d1791333b3cbd1d2858e6319/neo4j-annotation-processors-3.5.12.jar
+2019-12-07 21:00:05.225+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2019-12-07 21:00:05.225+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_212\bin
+2019-12-07 21:00:05.226+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\Sun\Java\bin
+2019-12-07 21:00:05.226+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-07 21:00:05.226+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2019-12-07 21:00:05.226+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
+2019-12-07 21:00:05.227+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Python37\Scripts
+2019-12-07 21:00:05.227+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Python37
+2019-12-07 21:00:05.228+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+2019-12-07 21:00:05.228+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-07 21:00:05.228+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2019-12-07 21:00:05.228+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\wbem
+2019-12-07 21:00:05.229+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-07 21:00:05.229+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\OpenSSH
+2019-12-07 21:00:05.229+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_212\bin
+2019-12-07 21:00:05.229+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\dotnet
+2019-12-07 21:00:05.230+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+2019-12-07 21:00:05.230+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn
+2019-12-07 21:00:05.231+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\w1730769\AppData\Local\Microsoft\WindowsApps
+2019-12-07 21:00:05.232+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\w1730769\AppData\Local\Programs\Git\cmd
+2019-12-07 21:00:05.232+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:05.232+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2019-12-07 21:00:05.270+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_212\jre\bin
+2019-12-07 21:00:05.270+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = ;
+2019-12-07 21:00:05.270+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding.pkg = sun.io
+2019-12-07 21:00:05.270+0000 INFO [o.n.i.d.DiagnosticsManager] user.script = 
+2019-12-07 21:00:05.270+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = US
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = 
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] user.variant = 
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = Cp1252
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = C:\Users\w1730769
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = America/Los_Angeles
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = windows-1252
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = w1730769
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = Main
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = en
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = \
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = windows
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = amd64
+2019-12-07 21:00:05.271+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2019-12-07 21:00:05.294+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2018g (available for 599 zone identifiers)
+2019-12-07 21:00:05.294+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2019-12-07 21:00:05.460+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Software Loopback Interface 1:
+2019-12-07 21:00:05.460+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft 6to4 Adapter:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 165.196.100.44
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft IP-HTTPS Platform Adapter:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.56.1
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VMware Virtual Ethernet Adapter for VMnet1:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.198.1
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Bluetooth Device (Personal Area Network):
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Teredo Tunneling Adapter:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VMware Virtual Ethernet Adapter for VMnet8:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.40.1
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.461+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-QoS Packet Scheduler-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-Virtual WiFi Filter Driver-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-Native WiFi Filter Driver-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-QoS Packet Scheduler-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:05.462+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2019-12-07 21:00:05.595+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected format 'RecordFormat:StandardV3_4[v0.A.9]' for the new store
+2019-12-07 21:00:07.974+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] No label index found, this might just be first use. Preparing to rebuild.
+2019-12-07 21:00:08.138+0000 INFO [o.n.k.NeoStoreDataSource] Rotated to transaction log [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.transaction.db.0] version=0, last transaction in previous log=1
+2019-12-07 21:00:08.139+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at <no log position given>)
+2019-12-07 21:00:08.148+0000 WARN [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2019-12-07 21:00:08.165+0000 WARN [o.n.k.i.s.MetaDataStore] Counts store rebuild completed.
+2019-12-07 21:00:08.183+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Rebuilding label index, this may take a while
+2019-12-07 21:00:08.258+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index rebuilt (roughly 0 nodes)
+2019-12-07 21:00:08.263+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2019-12-07 21:00:08.263+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1575752407428, randomId=-3538954348407785988, storeVersion=16094931155187206, upgradeTime=1575752407428, upgradeId=1}
+2019-12-07 21:00:08.264+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: 3.5.12,f4f02a725dc05d043a71684ce5d6f22f0c323378
+2019-12-07 21:00:08.265+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2019-12-07 21:00:08.267+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2019-12-07 21:00:08.267+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2019-12-07 21:00:08.268+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-07 21:00:08.268+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2019-12-07 21:00:08.268+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:08.268+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2019-12-07 21:00:08.269+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:08.269+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-07 21:00:08.269+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2019-12-07 21:00:08.269+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2019-12-07 21:00:08.269+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:08.270+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2019-12-07 21:00:08.270+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:08.270+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2019-12-07 21:00:08.270+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2019-12-07 21:00:08.271+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2019-12-07 21:00:08.271+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2019-12-07 21:00:08.271+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2019-12-07 21:00:08.271+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2019-12-07 21:00:08.272+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2019-12-07 21:00:08.272+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-07 21:00:08.272+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=0 high=-1
+2019-12-07 21:00:08.273+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:08.273+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2019-12-07 21:00:08.273+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:08.273+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-07 21:00:08.274+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2019-12-07 21:00:08.274+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2019-12-07 21:00:08.274+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:08.274+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2019-12-07 21:00:08.275+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:08.275+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2019-12-07 21:00:08.275+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2019-12-07 21:00:08.275+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2019-12-07 21:00:08.276+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2019-12-07 21:00:08.276+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2019-12-07 21:00:08.276+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2019-12-07 21:00:08.276+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2019-12-07 21:00:08.277+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1575752407428
+2019-12-07 21:00:08.277+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): -3538954348407785988
+2019-12-07 21:00:08.277+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2019-12-07 21:00:08.278+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2019-12-07 21:00:08.278+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2019-12-07 21:00:08.278+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2019-12-07 21:00:08.278+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2019-12-07 21:00:08.278+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2019-12-07 21:00:08.279+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1575752407428
+2019-12-07 21:00:08.279+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2019-12-07 21:00:08.279+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2019-12-07 21:00:08.279+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2019-12-07 21:00:08.280+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2019-12-07 21:00:08.280+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2019-12-07 21:00:08.280+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2019-12-07 21:00:08.280+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2019-12-07 21:00:08.282+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2019-12-07 21:00:08.282+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2019-12-07 21:00:08.283+0000 INFO [o.n.i.d.DiagnosticsManager] No transactions found in any log
+2019-12-07 21:00:08.283+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2019-12-07 21:00:08.287+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2019-12-07 21:00:08.289+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 322174971904 / 181995929600 / 56
+2019-12-07 21:00:08.290+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2019-12-07 21:00:08.293+0000 INFO [o.n.i.d.DiagnosticsManager]   index:
+2019-12-07 21:00:08.293+0000 INFO [o.n.i.d.DiagnosticsManager]   - Total: 2019-12-07T13:00:07-0800 - 0.00 B
+2019-12-07 21:00:08.294+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2019-12-07T13:00:07-0800 - 8.00 kB
+2019-12-07 21:00:08.294+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2019-12-07T13:00:08-0800 - 96.00 B
+2019-12-07 21:00:08.295+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2019-12-07T13:00:07-0800 - 9.00 B
+2019-12-07 21:00:08.295+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2019-12-07T13:00:08-0800 - 40.00 kB
+2019-12-07 21:00:08.296+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2019-12-07T13:00:07-0800 - 0.00 B
+2019-12-07 21:00:08.296+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2019-12-07T13:00:07-0800 - 9.00 B
+2019-12-07 21:00:08.297+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:08.297+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2019-12-07T13:00:07-0800 - 9.00 B
+2019-12-07 21:00:08.298+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2019-12-07T13:00:05-0800 - 0.00 B
+2019-12-07 21:00:08.298+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2019-12-07T13:00:05-0800 - 9.00 B
+2019-12-07 21:00:08.299+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2019-12-07T13:00:05-0800 - 8.00 kB
+2019-12-07 21:00:08.299+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2019-12-07T13:00:05-0800 - 9.00 B
+2019-12-07 21:00:08.300+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2019-12-07T13:00:06-0800 - 0.00 B
+2019-12-07 21:00:08.300+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:08.300+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2019-12-07T13:00:06-0800 - 9.00 B
+2019-12-07 21:00:08.301+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2019-12-07T13:00:06-0800 - 9.00 B
+2019-12-07 21:00:08.301+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2019-12-07T13:00:05-0800 - 0.00 B
+2019-12-07 21:00:08.302+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2019-12-07T13:00:06-0800 - 9.00 B
+2019-12-07 21:00:08.302+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2019-12-07T13:00:05-0800 - 8.00 kB
+2019-12-07 21:00:08.303+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2019-12-07T13:00:05-0800 - 9.00 B
+2019-12-07 21:00:08.303+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:08.304+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2019-12-07T13:00:06-0800 - 9.00 B
+2019-12-07 21:00:08.305+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2019-12-07T13:00:07-0800 - 8.00 kB
+2019-12-07 21:00:08.305+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2019-12-07T13:00:07-0800 - 9.00 B
+2019-12-07 21:00:08.306+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2019-12-07T13:00:06-0800 - 0.00 B
+2019-12-07 21:00:08.306+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2019-12-07T13:00:06-0800 - 9.00 B
+2019-12-07 21:00:08.306+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2019-12-07T13:00:06-0800 - 0.00 B
+2019-12-07 21:00:08.307+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2019-12-07T13:00:06-0800 - 9.00 B
+2019-12-07 21:00:08.307+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:08.308+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2019-12-07T13:00:06-0800 - 9.00 B
+2019-12-07 21:00:08.308+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2019-12-07T13:00:07-0800 - 8.00 kB
+2019-12-07 21:00:08.309+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2019-12-07T13:00:07-0800 - 9.00 B
+2019-12-07 21:00:08.310+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2019-12-07T13:00:08-0800 - 16.00 B
+2019-12-07 21:00:08.310+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2019-12-07 21:00:08.310+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 112.24 kB
+2019-12-07 21:00:08.310+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2019-12-07 21:00:08.311+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2019-12-07 21:00:08.311+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database database available.
+2019-12-07 21:00:08.311+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database database is ready.
+2019-12-07 21:00:08.312+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2019-12-07 21:00:27.926+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 6631559168 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2019-12-07 21:00:28.212+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2019-12-07 21:00:28.388+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'database' database.
+2019-12-07 21:00:28.423+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database database unavailable.
+2019-12-07 21:00:28.424+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database database is unavailable.
+2019-12-07 21:00:28.443+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2019-12-07 21:00:28.443+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2019-12-07 21:00:28.443+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=database
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2019-12-07 21:00:28.444+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2019-12-07 21:00:28.445+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2019-12-07 21:00:28.445+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2019-12-07 21:00:28.445+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2019-12-07 21:00:28.445+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2019-12-07 21:00:28.445+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2019-12-07 21:00:28.452+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 15.88 GB
+2019-12-07 21:00:28.452+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 9.52 GB
+2019-12-07 21:00:28.453+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 552.31 MB
+2019-12-07 21:00:28.453+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 18.26 GB
+2019-12-07 21:00:28.453+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 10.91 GB
+2019-12-07 21:00:28.453+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2019-12-07 21:00:28.453+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 221.61 MB
+2019-12-07 21:00:28.453+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 245.50 MB
+2019-12-07 21:00:28.453+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 3.53 GB
+2019-12-07 21:00:28.455+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2019-12-07 21:00:28.455+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2019-12-07 21:00:28.455+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.69 MB, used=5.66 MB, max=240.00 MB, threshold=0.00 B
+2019-12-07 21:00:28.455+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=20.50 MB, used=19.70 MB, max=-1.00 B, threshold=0.00 B
+2019-12-07 21:00:28.456+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2.50 MB, used=2.34 MB, max=1.00 GB, threshold=0.00 B
+2019-12-07 21:00:28.456+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=64.00 MB, used=9.26 MB, max=1.30 GB, threshold=?
+2019-12-07 21:00:28.456+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=10.50 MB, used=10.48 MB, max=10.50 MB, threshold=?
+2019-12-07 21:00:28.456+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=171.00 MB, used=4.15 MB, max=2.65 GB, threshold=0.00 B
+2019-12-07 21:00:28.456+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2019-12-07 21:00:28.457+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 4
+2019-12-07 21:00:28.466+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 7864@BCS-410-1847
+2019-12-07 21:00:28.466+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2019-12-07 21:00:28.469+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: America/Los_Angeles
+2019-12-07 21:00:28.469+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2019-12-07 21:00:28.469+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2019-12-07 21:00:28.469+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Oracle Corporation
+2019-12-07 21:00:28.470+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 25.212-b10
+2019-12-07 21:00:28.470+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2019-12-07 21:00:28.470+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: [-Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant]
+2019-12-07 21:00:28.470+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2019-12-07 21:00:28.473+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunec.jar
+2019-12-07 21:00:28.473+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2/1b6c4ff09ce03f3052429139c2a68e295cae6604/asm-6.2.jar
+2019-12-07 21:00:28.473+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.profesorfalken/WMI4Java/1.6.1/628ef4ea73cd6046ddba222ab628eb9f521eb878/WMI4Java-1.6.1.jar
+2019-12-07 21:00:28.473+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.8/222fc4cf714a63f27cbdafdbd863efd0d30c8a1e/commons-lang3-3.8.jar
+2019-12-07 21:00:28.473+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/localedata.jar
+2019-12-07 21:00:28.473+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-bolt/3.5.12/cfa739f34cd9289ac3dbe788640b70ca5ae6c120/neo4j-bolt-3.5.12.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\resources.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-spi-3.5/3.5.12/1f2869ee5f2853af0f168e9a5a945fcd762df6fe/neo4j-cypher-planner-spi-3.5-3.5.12.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-collections/3.5.12/7649d589c4144c5e297731e1f3403f0ec513f82b/neo4j-collections-3.5.12.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-2.3/2.3.12/d87e903d0b8a10b34ff8f6372362777e51bfbfbe/neo4j-cypher-frontend-2.3-2.3.12.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\jfr.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-csv/3.5.12/5fbd25275e38f1f8d6e0e781f2956cf8e5f834f2/neo4j-csv-3.5.12.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/zipfs.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-algo/3.5.12/78d8285330cc57622f16f8385a0cbfacd82fa74d/neo4j-graph-algo-3.5.12.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-rewriting-3.5/3.5.12/9c4a4009cc356b41127006932fdf12de4ca40707/neo4j-rewriting-3.5-3.5.12.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-command-line/3.5.12/75dd1aa10b42c675587db8b640cd66b0b36ecf3e/neo4j-command-line-3.5.12.jar
+2019-12-07 21:00:28.474+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-logical-plans-3.4/3.4.15/f7674056b605b7f8436e151a0141d55993d52aea/neo4j-cypher-logical-plans-3.4-3.4.15.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.eclipse.collections/eclipse-collections/9.2.0/f2f2406e2229497935b6e7dd6c41da7fd67f36a8/eclipse-collections-9.2.0.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/bd47ad3bd14b8e82595c7adaa143501e60842a84/bcprov-jdk15on-1.60.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\sunrsasign.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-diagnostics/3.5.12/a37b42d31563c3dcc999aa02f76b63c155cf48c6/neo4j-diagnostics-3.5.12.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunjce_provider.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.1.7/a60ff9a54cbeb30ec44c89e16ac4c35913cbad5a/parboiled-core-1.1.7.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel-api/3.5.12/adae52e367b587257db8216ea26688805cd77dfa/neo4j-kernel-api-3.5.12.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\jce.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-fulltext-index/3.5.12/616c438fdce5e2be609655f77af5293773b1e80a/neo4j-fulltext-index-3.5.12.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/access-bridge-64.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-udc/3.5.12/9adcc88bb8a610dc1327e3c7b0868a15220c7bc8/neo4j-udc-3.5.12.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-io/3.5.12/48e14a2481b350d6d5b813c9e7b29126703bef/neo4j-io-3.5.12.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\jsse.jar
+2019-12-07 21:00:28.475+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.3.8-6/f67bee23f938085bc732ac81f634b922b24f13e6/zstd-jni-1.3.8-6.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.jprocesses/jProcesses/1.6.4/f0d9e30bb02f67bc2d3d9981664f8e57e4ad1f81/jProcesses-1.6.4.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/cldrdata.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-util-3.5/3.5.12/9ddbca7dca4ed3ae1539e2d1b93afc0b3ba6dab1/neo4j-util-3.5-3.5.12.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-values/3.5.12/1cc4a43c94060a03c7fecce37125aeced75751ab/neo4j-values-3.5.12.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/jfxrt.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.eclipse.collections/eclipse-collections-api/9.2.0/d106fd8588e542d2ee9d31d3e057af8bcb813396/eclipse-collections-api-9.2.0.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\rt.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-index/3.5.12/4202ba49a1e77f9bb788ac819b0aa9068ba4d3a1/neo4j-index-3.5.12.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j.licensing-proxy/zstd-proxy/3.5.12/6eca02a46deecdd492cb51f650c251b2fcea48e7/zstd-proxy-3.5.12.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-ir-3.5/3.5.12/bcc2262a2b34b5d17f7ff5a6b5a008b8bb37828b/neo4j-cypher-ir-3.5-3.5.12.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/5.5.5/6c965eb5838a2ba58b0de0fd860a420dcda11937/lucene-queryparser-5.5.5.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-expression-3.4/3.4.15/a0869aee6d9f928aa1666d7a72f17be4b9de874f/neo4j-cypher-expression-3.4-3.4.15.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.6.2/c8fd8817f9d2b2ced82f8968e0dd943aab557de0/caffeine-2.6.2.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-matching/3.1.9/5265d2eb2cc8df7bc66034b730d86be936ec76a9/neo4j-graph-matching-3.1.9.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/d0c46320fbc07be3a24eb13a56cee4e3d38e0c75/bcpkix-jdk15on-1.60.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-spatial-index/3.5.12/c8f4929a41148c115f5cfce0112774108f5244c1/neo4j-spatial-index-3.5.12.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher/3.5.12/20d07f258ef04a3cea5dee705a9cdfc0bb1ad374/neo4j-cypher-3.5.12.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-ssl/3.5.12/ce57ce497ee27277f7949d422f68ff1c6909aa72/neo4j-ssl-3.5.12.jar
+2019-12-07 21:00:28.476+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-spi-3.4/3.4.15/2087b04c1014ec7b146923f120572c651964bfab/neo4j-cypher-planner-spi-3.4-3.4.15.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/6.2/a9690730f92cc79eeadc20e400ebb41eccce10b1/asm-util-6.2.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.profesorfalken/jPowerShell/1.9/22a7cdf6e460b9738e751bef9634b1b7cee55130/jPowerShell-1.9.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-upgrade/3.5.12/fbcbd74949748c49c3cec40cc7b7d9c2b73c93b4/neo4j-lucene-upgrade-3.5.12.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\classes
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunmscapi.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-index/3.5.12/af8be7aea23518670c853be07cb3aa0d7029f521/neo4j-lucene-index-3.5.12.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-2.3/2.3.12/72ac3a861e32b681461d74523bfdadeeb6f8a72b/neo4j-cypher-compiler-2.3-2.3.12.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-logical-plans-3.5/3.5.12/626d9c7d049202f7ae16f755a1e3d1a265714b62/neo4j-cypher-logical-plans-3.5-3.5.12.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-util-3.4/3.4.15/93e1cd46d31435dcc0f0ad1ce802509a605385c/neo4j-cypher-util-3.4-3.4.15.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-3.5/3.5.12/5a888b319d55e99d29244574008a2da4754caa24/neo4j-cypher-planner-3.5-3.5.12.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-3.1/3.1.9/6bec4dee36c05a56d19791cacc887d815ebbefd7/neo4j-cypher-compiler-3.1-3.1.9.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.19/7e65777fb451ddab6a9c054beb879e521b7eab78/commons-compress-1.19.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-dbms/3.5.12/ef4a8f9d6f1bdbeed627a38f47727d91ad790418/neo4j-dbms-3.5.12.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.32.Final/4bdf6727530e7eb14c597056730724533ad96648/netty-all-4.1.32.Final.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/IdeaProjects/Planathon2/build/classes/java/main/
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-scala_2.11/1.1.7/4e14ecb11f40f25216ce01dc349f541bc801354f/parboiled-scala_2.11-1.1.7.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-import-tool/3.5.12/9b2550cd3a80e2287ac3273177374b8506fd9028/neo4j-import-tool-3.5.12.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-jmx/3.5.12/10d0179548dc45544f56bb06dce653dbcf6dc1ec/neo4j-jmx-3.5.12.jar
+2019-12-07 21:00:28.477+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-ast-3.5/3.5.12/6a9fdc4c364077cd73d029723fb5d6ac89d13a9/neo4j-ast-3.5-3.5.12.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-resource/3.5.12/5bcd93454517cdeec58d2f546847d794d9d8d044/neo4j-resource-3.5.12.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-parser-3.5/3.5.12/9b3954e2da84988c9fb9ec5efb88c2fd2050c28/neo4j-parser-3.5-3.5.12.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/jaccess.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graphdb-api/3.5.12/f187f4dc26d5314d174b3984b9518f8917a8344/neo4j-graphdb-api-3.5.12.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/openCypher-frontend-1/3.4.15/bc01696eeac3d7213666dfb5a75f641d9fc20be2/openCypher-frontend-1-3.4.15.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-data-collector/3.5.12/72a0b7d241321ddacef693cbfe35ea18d174de99/neo4j-data-collector-3.5.12.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/5.5.5/c34bcd9274859dc07cfed2a935aaca90c4f4b861/lucene-core-5.5.5.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/dnsns.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-logging/3.5.12/426e9d2c9e2235f9aafbe8229982ebf68efdfa9c/neo4j-logging-3.5.12.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel/3.5.12/cbe91da3ac0ee4add15268f7a085e3df4c68a3ed/neo4j-kernel-3.5.12.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-common/3.5.12/bd613039d6ab79811a7890fdf407ddaf9d0a38e7/neo4j-common-3.5.12.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/6.2/c7d9a90d221cbb977848d2c777eb3aa7637e89df/asm-analysis-6.2.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-concurrent/3.5.12/bd8a6080aa4003612fe3b6aa4dbcd934dec207fd/neo4j-concurrent-3.5.12.jar
+2019-12-07 21:00:28.478+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-3.4/3.4.15/7fcb6e2aa4c35af66d6068bf7838564e6c04535/neo4j-cypher-planner-3.4-3.4.15.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-codecs/5.5.5/e62864e51b3db16766d400b718ec848b3d66db6/lucene-codecs-5.5.5.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.12/2bb23c13c527566d9828107ca4108be2a2c06f01/scala-reflect-2.11.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-expressions-3.5/3.5.12/8e8b7fd97b80f0fa87f02dd3e6c00b4097d68c42/neo4j-expressions-3.5-3.5.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-consistency-check/3.5.12/1c4e84f3ce4064e83e86f2997af9325e4d0d8a48/neo4j-consistency-check-3.5.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-interpreted-runtime/3.5.12/dddfc2925e7e44072c5da0c8aa315ca2d481181b/neo4j-cypher-interpreted-runtime-3.5.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-unsafe/3.5.12/7a26b39485b9c488b87f6f37a2c24270ea79f7f3/neo4j-unsafe-3.5.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-codegen/3.5.12/2fa8c5e02a7c766a66dfdc33b056cfca423bfa8a/neo4j-codegen-3.5.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-procedure-api/3.5.12/df9ab7cec46f0b224d53c88911873400806b15e8/neo4j-procedure-api-3.5.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j/3.5.12/40d526ce3e2cb9cdadfcbbb7b648ede3a401a0e8/neo4j-3.5.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/IdeaProjects/Planathon2/build/resources/main
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-runtime-util/3.5.12/fe98307f6c28b383600059ff2127a64729a959ca/neo4j-cypher-runtime-util-3.5.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/6.2/61570e046111559f38d4e0e580c005f75988c0a6/asm-tree-6.2.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-legacy/3.5.12/4e2d09bb10e091560a3c0be6795e2beb7de4011/neo4j-legacy-3.5.12.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-3.1/3.1.9/239d40944641be2f8d453d9823ec3d195ff6d61/neo4j-cypher-frontend-3.1-3.1.9.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/5.5.5/e6b3f5d1b33ed24da7eef0a72f8062bd4652700c/lucene-analyzers-common-5.5.5.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/2eaf3d3c9746d526ff7e5b93931d482c3887e6ac/concurrentlinkedhashmap-lru-1.4.2.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/nashorn.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunpkcs11.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.4/680b74de9c393bbf8d9e951af301659b16845907/commons-text-1.4.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\charsets.jar
+2019-12-07 21:00:28.479+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-configuration/3.5.12/6138d2a7581612314b8644411186798a8f73d54d/neo4j-configuration-3.5.12.jar
+2019-12-07 21:00:28.480+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-ir-3.4/3.4.15/7ef83a5763f7a5e79f175418d5c32d576a209ab5/neo4j-cypher-ir-3.4-3.4.15.jar
+2019-12-07 21:00:28.480+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-front-end-3.5/3.5.12/143f5822a623175dcba5c29f41ddd98ac01f2efc/neo4j-front-end-3.5-3.5.12.jar
+2019-12-07 21:00:28.480+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-annotation-processors/3.5.12/e81002f65e7900e3d1791333b3cbd1d2858e6319/neo4j-annotation-processors-3.5.12.jar
+2019-12-07 21:00:28.480+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2019-12-07 21:00:28.480+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_212\bin
+2019-12-07 21:00:28.480+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\Sun\Java\bin
+2019-12-07 21:00:28.481+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-07 21:00:28.481+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2019-12-07 21:00:28.481+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
+2019-12-07 21:00:28.482+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Python37\Scripts
+2019-12-07 21:00:28.482+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Python37
+2019-12-07 21:00:28.483+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+2019-12-07 21:00:28.483+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-07 21:00:28.483+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2019-12-07 21:00:28.483+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\wbem
+2019-12-07 21:00:28.483+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-07 21:00:28.484+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\OpenSSH
+2019-12-07 21:00:28.484+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_212\bin
+2019-12-07 21:00:28.484+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\dotnet
+2019-12-07 21:00:28.484+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+2019-12-07 21:00:28.485+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn
+2019-12-07 21:00:28.485+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\w1730769\AppData\Local\Microsoft\WindowsApps
+2019-12-07 21:00:28.486+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\w1730769\AppData\Local\Programs\Git\cmd
+2019-12-07 21:00:28.486+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:28.486+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2019-12-07 21:00:28.486+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_212\jre\bin
+2019-12-07 21:00:28.486+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = ;
+2019-12-07 21:00:28.486+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding.pkg = sun.io
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] user.script = 
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = US
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = 
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] user.variant = 
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = Cp1252
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = C:\Users\w1730769
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = America/Los_Angeles
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = windows-1252
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = w1730769
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = Main
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = en
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = \
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2019-12-07 21:00:28.487+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2019-12-07 21:00:28.488+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = windows
+2019-12-07 21:00:28.488+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = amd64
+2019-12-07 21:00:28.488+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2019-12-07 21:00:28.551+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2018g (available for 599 zone identifiers)
+2019-12-07 21:00:28.551+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2019-12-07 21:00:28.724+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Software Loopback Interface 1:
+2019-12-07 21:00:28.724+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft 6to4 Adapter:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 165.196.100.44
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft IP-HTTPS Platform Adapter:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.56.1
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VMware Virtual Ethernet Adapter for VMnet1:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.198.1
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Bluetooth Device (Personal Area Network):
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Teredo Tunneling Adapter:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VMware Virtual Ethernet Adapter for VMnet8:
+2019-12-07 21:00:28.726+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.40.1
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-QoS Packet Scheduler-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-Virtual WiFi Filter Driver-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-Native WiFi Filter Driver-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-QoS Packet Scheduler-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2019-12-07 21:00:28.727+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.728+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.728+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000:
+2019-12-07 21:00:28.728+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:28.728+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:28.728+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000:
+2019-12-07 21:00:28.728+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:28.728+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2019-12-07 21:00:28.948+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Users\w1730769\IdeaProjects\Planathon2\database
+2019-12-07 21:00:28.998+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Users\w1730769\IdeaProjects\Planathon2\database
+2019-12-07 21:00:28.999+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_4[v0.A.9]
+2019-12-07 21:00:29.494+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job registered
+2019-12-07 21:00:29.496+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job started
+2019-12-07 21:00:29.507+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job finished: Number of pages visited: 2, Number of cleaned crashed pointers: 0, Time spent: 10ms
+2019-12-07 21:00:29.510+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job closed
+2019-12-07 21:00:29.510+0000 INFO [o.n.k.NeoStoreDataSource] No check point found in transaction log
+2019-12-07 21:00:29.511+0000 INFO [o.n.k.NeoStoreDataSource] Recovery required from position LogPosition{logVersion=0, byteOffset=16}
+2019-12-07 21:00:29.521+0000 INFO [o.n.k.r.Recovery]   10% completed
+2019-12-07 21:00:29.521+0000 INFO [o.n.k.r.Recovery]   20% completed
+2019-12-07 21:00:29.522+0000 INFO [o.n.k.r.Recovery]   30% completed
+2019-12-07 21:00:29.522+0000 INFO [o.n.k.r.Recovery]   40% completed
+2019-12-07 21:00:29.522+0000 INFO [o.n.k.r.Recovery]   50% completed
+2019-12-07 21:00:29.522+0000 INFO [o.n.k.r.Recovery]   60% completed
+2019-12-07 21:00:29.523+0000 INFO [o.n.k.r.Recovery]   70% completed
+2019-12-07 21:00:29.523+0000 INFO [o.n.k.r.Recovery]   80% completed
+2019-12-07 21:00:29.523+0000 INFO [o.n.k.r.Recovery]   90% completed
+2019-12-07 21:00:29.523+0000 INFO [o.n.k.r.Recovery]   100% completed
+2019-12-07 21:00:29.525+0000 INFO [o.n.k.NeoStoreDataSource] No recovery required
+2019-12-07 21:00:29.526+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db.labels] ...
+2019-12-07 21:00:29.577+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2019-12-07 21:00:29.577+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:29.578+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db] ...
+2019-12-07 21:00:29.634+0000 INFO [o.n.k.i.s.NodeStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db] high id=0 (defragged=0)
+2019-12-07 21:00:29.634+0000 INFO [o.n.k.i.s.NodeStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:29.635+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index.keys] ...
+2019-12-07 21:00:29.693+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index.keys] high id=1 (defragged=0)
+2019-12-07 21:00:29.693+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:29.693+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index] ...
+2019-12-07 21:00:29.751+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index] high id=0 (defragged=0)
+2019-12-07 21:00:29.752+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:29.835+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.strings] ...
+2019-12-07 21:00:29.938+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2019-12-07 21:00:29.938+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:29.938+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.arrays] ...
+2019-12-07 21:00:29.989+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2019-12-07 21:00:29.989+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:29.990+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db] ...
+2019-12-07 21:00:30.056+0000 INFO [o.n.k.i.s.PropertyStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db] high id=0 (defragged=0)
+2019-12-07 21:00:30.056+0000 INFO [o.n.k.i.s.PropertyStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:30.056+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipstore.db] ...
+2019-12-07 21:00:30.107+0000 INFO [o.n.k.i.s.RelationshipStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipstore.db] high id=0 (defragged=0)
+2019-12-07 21:00:30.107+0000 INFO [o.n.k.i.s.RelationshipStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:30.107+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db.names] ...
+2019-12-07 21:00:30.184+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db.names] high id=1 (defragged=0)
+2019-12-07 21:00:30.184+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:30.185+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db] ...
+2019-12-07 21:00:30.300+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db] high id=0 (defragged=0)
+2019-12-07 21:00:30.300+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:30.359+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db.names] ...
+2019-12-07 21:00:30.417+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db.names] high id=1 (defragged=0)
+2019-12-07 21:00:30.418+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:30.418+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db] ...
+2019-12-07 21:00:30.493+0000 INFO [o.n.k.i.s.LabelTokenStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db] high id=0 (defragged=0)
+2019-12-07 21:00:30.493+0000 INFO [o.n.k.i.s.LabelTokenStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:30.568+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.schemastore.db] ...
+2019-12-07 21:00:30.790+0000 INFO [o.n.k.i.s.SchemaStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.schemastore.db] high id=1 (defragged=0)
+2019-12-07 21:00:30.790+0000 INFO [o.n.k.i.s.SchemaStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:30.790+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipgroupstore.db] ...
+2019-12-07 21:00:30.905+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2019-12-07 21:00:30.906+0000 INFO [o.n.k.i.s.RelationshipGroupStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:30.906+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore] ...
+2019-12-07 21:00:30.956+0000 INFO [o.n.k.i.s.MetaDataStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore] high id=15 (defragged=0)
+2019-12-07 21:00:30.956+0000 INFO [o.n.k.i.s.MetaDataStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore rebuild id generator, highId=15 defragged count=0
+2019-12-07 21:00:30.968+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2019-12-07 21:00:30.968+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1575752407428, randomId=-3538954348407785988, storeVersion=16094931155187206, upgradeTime=1575752407428, upgradeId=1}
+2019-12-07 21:00:30.968+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: 3.5.12,f4f02a725dc05d043a71684ce5d6f22f0c323378
+2019-12-07 21:00:30.969+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2019-12-07 21:00:30.970+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2019-12-07 21:00:30.970+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2019-12-07 21:00:30.971+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-07 21:00:30.971+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2019-12-07 21:00:30.971+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:30.971+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2019-12-07 21:00:30.971+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:30.971+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-07 21:00:30.972+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2019-12-07 21:00:30.972+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2019-12-07 21:00:30.972+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:30.972+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2019-12-07 21:00:30.972+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:30.973+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2019-12-07 21:00:30.973+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2019-12-07 21:00:30.973+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2019-12-07 21:00:30.973+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2019-12-07 21:00:30.974+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2019-12-07 21:00:30.974+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2019-12-07 21:00:30.974+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2019-12-07 21:00:30.975+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-07 21:00:30.975+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=0 high=-1
+2019-12-07 21:00:30.975+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:30.975+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2019-12-07 21:00:30.975+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:30.975+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-07 21:00:30.976+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2019-12-07 21:00:30.976+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2019-12-07 21:00:30.976+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:30.976+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2019-12-07 21:00:30.976+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:30.976+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2019-12-07 21:00:30.977+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2019-12-07 21:00:30.977+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2019-12-07 21:00:30.977+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2019-12-07 21:00:30.977+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2019-12-07 21:00:30.977+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2019-12-07 21:00:30.977+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2019-12-07 21:00:30.978+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1575752407428
+2019-12-07 21:00:30.978+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): -3538954348407785988
+2019-12-07 21:00:30.978+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2019-12-07 21:00:30.978+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2019-12-07 21:00:30.979+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2019-12-07 21:00:30.979+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2019-12-07 21:00:30.979+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2019-12-07 21:00:30.979+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2019-12-07 21:00:30.979+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1575752407428
+2019-12-07 21:00:30.979+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2019-12-07 21:00:30.980+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2019-12-07 21:00:30.980+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2019-12-07 21:00:30.980+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2019-12-07 21:00:30.980+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2019-12-07 21:00:30.980+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2019-12-07 21:00:30.981+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2019-12-07 21:00:30.982+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2019-12-07 21:00:30.982+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2019-12-07 21:00:30.983+0000 INFO [o.n.i.d.DiagnosticsManager] No transactions found in any log
+2019-12-07 21:00:30.983+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2019-12-07 21:00:30.987+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2019-12-07 21:00:30.989+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 322174971904 / 181995323392 / 56
+2019-12-07 21:00:30.989+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2019-12-07 21:00:30.992+0000 INFO [o.n.i.d.DiagnosticsManager]   index:
+2019-12-07 21:00:30.993+0000 INFO [o.n.i.d.DiagnosticsManager]   - Total: 2019-12-07T13:00:07-0800 - 0.00 B
+2019-12-07 21:00:30.994+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2019-12-07T13:00:07-0800 - 8.00 kB
+2019-12-07 21:00:30.994+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2019-12-07T13:00:08-0800 - 96.00 B
+2019-12-07 21:00:30.995+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2019-12-07T13:00:30-0800 - 9.00 B
+2019-12-07 21:00:30.996+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2019-12-07T13:00:29-0800 - 40.00 kB
+2019-12-07 21:00:30.996+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2019-12-07T13:00:07-0800 - 0.00 B
+2019-12-07 21:00:30.997+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2019-12-07T13:00:30-0800 - 9.00 B
+2019-12-07 21:00:30.997+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:30.998+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2019-12-07T13:00:30-0800 - 9.00 B
+2019-12-07 21:00:30.999+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2019-12-07T13:00:05-0800 - 0.00 B
+2019-12-07 21:00:30.999+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2019-12-07T13:00:29-0800 - 9.00 B
+2019-12-07 21:00:30.999+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2019-12-07T13:00:05-0800 - 8.00 kB
+2019-12-07 21:00:31.000+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2019-12-07T13:00:29-0800 - 9.00 B
+2019-12-07 21:00:31.000+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2019-12-07T13:00:06-0800 - 0.00 B
+2019-12-07 21:00:31.001+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:31.001+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2019-12-07T13:00:29-0800 - 9.00 B
+2019-12-07 21:00:31.002+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2019-12-07T13:00:30-0800 - 9.00 B
+2019-12-07 21:00:31.003+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2019-12-07T13:00:05-0800 - 0.00 B
+2019-12-07 21:00:31.003+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2019-12-07T13:00:29-0800 - 9.00 B
+2019-12-07 21:00:31.004+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2019-12-07T13:00:05-0800 - 8.00 kB
+2019-12-07 21:00:31.006+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2019-12-07T13:00:29-0800 - 9.00 B
+2019-12-07 21:00:31.006+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:31.007+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2019-12-07T13:00:29-0800 - 9.00 B
+2019-12-07 21:00:31.008+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2019-12-07T13:00:07-0800 - 8.00 kB
+2019-12-07 21:00:31.009+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2019-12-07T13:00:30-0800 - 9.00 B
+2019-12-07 21:00:31.010+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2019-12-07T13:00:06-0800 - 0.00 B
+2019-12-07 21:00:31.011+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2019-12-07T13:00:30-0800 - 9.00 B
+2019-12-07 21:00:31.011+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2019-12-07T13:00:06-0800 - 0.00 B
+2019-12-07 21:00:31.012+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2019-12-07T13:00:30-0800 - 9.00 B
+2019-12-07 21:00:31.013+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:31.013+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2019-12-07T13:00:30-0800 - 9.00 B
+2019-12-07 21:00:31.014+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2019-12-07T13:00:07-0800 - 8.00 kB
+2019-12-07 21:00:31.014+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2019-12-07T13:00:30-0800 - 9.00 B
+2019-12-07 21:00:31.015+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2019-12-07T13:00:08-0800 - 16.00 B
+2019-12-07 21:00:31.015+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2019-12-07 21:00:31.016+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 112.24 kB
+2019-12-07 21:00:31.016+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2019-12-07 21:00:31.016+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2019-12-07 21:00:31.016+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database database available.
+2019-12-07 21:00:31.017+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database database is ready.
+2019-12-07 21:00:31.017+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2019-12-07 21:00:52.342+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 6631559168 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2019-12-07 21:00:52.628+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2019-12-07 21:00:52.798+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'database' database.
+2019-12-07 21:00:52.833+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database database unavailable.
+2019-12-07 21:00:52.834+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database database is unavailable.
+2019-12-07 21:00:52.852+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=database
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2019-12-07 21:00:52.853+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2019-12-07 21:00:52.854+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2019-12-07 21:00:52.854+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2019-12-07 21:00:52.854+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2019-12-07 21:00:52.854+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2019-12-07 21:00:52.854+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2019-12-07 21:00:52.854+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2019-12-07 21:00:52.854+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2019-12-07 21:00:52.854+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2019-12-07 21:00:52.861+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 15.88 GB
+2019-12-07 21:00:52.861+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 9.53 GB
+2019-12-07 21:00:52.861+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 552.82 MB
+2019-12-07 21:00:52.861+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 18.26 GB
+2019-12-07 21:00:52.862+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 10.92 GB
+2019-12-07 21:00:52.862+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2019-12-07 21:00:52.862+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 222.77 MB
+2019-12-07 21:00:52.862+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 245.50 MB
+2019-12-07 21:00:52.862+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 3.53 GB
+2019-12-07 21:00:52.863+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2019-12-07 21:00:52.864+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2019-12-07 21:00:52.864+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.75 MB, used=5.73 MB, max=240.00 MB, threshold=0.00 B
+2019-12-07 21:00:52.864+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=20.50 MB, used=19.72 MB, max=-1.00 B, threshold=0.00 B
+2019-12-07 21:00:52.865+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2.50 MB, used=2.34 MB, max=1.00 GB, threshold=0.00 B
+2019-12-07 21:00:52.865+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=64.00 MB, used=7.99 MB, max=1.30 GB, threshold=?
+2019-12-07 21:00:52.865+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=10.50 MB, used=10.50 MB, max=10.50 MB, threshold=?
+2019-12-07 21:00:52.865+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=171.00 MB, used=4.25 MB, max=2.65 GB, threshold=0.00 B
+2019-12-07 21:00:52.865+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2019-12-07 21:00:52.866+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 4
+2019-12-07 21:00:52.875+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 10836@BCS-410-1847
+2019-12-07 21:00:52.875+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2019-12-07 21:00:52.878+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: America/Los_Angeles
+2019-12-07 21:00:52.878+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2019-12-07 21:00:52.878+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2019-12-07 21:00:52.878+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Oracle Corporation
+2019-12-07 21:00:52.878+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 25.212-b10
+2019-12-07 21:00:52.879+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2019-12-07 21:00:52.879+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: [-Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant]
+2019-12-07 21:00:52.879+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2019-12-07 21:00:52.885+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunec.jar
+2019-12-07 21:00:52.885+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2/1b6c4ff09ce03f3052429139c2a68e295cae6604/asm-6.2.jar
+2019-12-07 21:00:52.885+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.profesorfalken/WMI4Java/1.6.1/628ef4ea73cd6046ddba222ab628eb9f521eb878/WMI4Java-1.6.1.jar
+2019-12-07 21:00:52.885+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.8/222fc4cf714a63f27cbdafdbd863efd0d30c8a1e/commons-lang3-3.8.jar
+2019-12-07 21:00:52.885+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/localedata.jar
+2019-12-07 21:00:52.885+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-bolt/3.5.12/cfa739f34cd9289ac3dbe788640b70ca5ae6c120/neo4j-bolt-3.5.12.jar
+2019-12-07 21:00:52.885+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\resources.jar
+2019-12-07 21:00:52.885+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-spi-3.5/3.5.12/1f2869ee5f2853af0f168e9a5a945fcd762df6fe/neo4j-cypher-planner-spi-3.5-3.5.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-collections/3.5.12/7649d589c4144c5e297731e1f3403f0ec513f82b/neo4j-collections-3.5.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-2.3/2.3.12/d87e903d0b8a10b34ff8f6372362777e51bfbfbe/neo4j-cypher-frontend-2.3-2.3.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\jfr.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-csv/3.5.12/5fbd25275e38f1f8d6e0e781f2956cf8e5f834f2/neo4j-csv-3.5.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/zipfs.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-algo/3.5.12/78d8285330cc57622f16f8385a0cbfacd82fa74d/neo4j-graph-algo-3.5.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-rewriting-3.5/3.5.12/9c4a4009cc356b41127006932fdf12de4ca40707/neo4j-rewriting-3.5-3.5.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-command-line/3.5.12/75dd1aa10b42c675587db8b640cd66b0b36ecf3e/neo4j-command-line-3.5.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-logical-plans-3.4/3.4.15/f7674056b605b7f8436e151a0141d55993d52aea/neo4j-cypher-logical-plans-3.4-3.4.15.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.eclipse.collections/eclipse-collections/9.2.0/f2f2406e2229497935b6e7dd6c41da7fd67f36a8/eclipse-collections-9.2.0.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/bd47ad3bd14b8e82595c7adaa143501e60842a84/bcprov-jdk15on-1.60.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\sunrsasign.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-diagnostics/3.5.12/a37b42d31563c3dcc999aa02f76b63c155cf48c6/neo4j-diagnostics-3.5.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunjce_provider.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.1.7/a60ff9a54cbeb30ec44c89e16ac4c35913cbad5a/parboiled-core-1.1.7.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel-api/3.5.12/adae52e367b587257db8216ea26688805cd77dfa/neo4j-kernel-api-3.5.12.jar
+2019-12-07 21:00:52.886+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\jce.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-fulltext-index/3.5.12/616c438fdce5e2be609655f77af5293773b1e80a/neo4j-fulltext-index-3.5.12.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/access-bridge-64.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-udc/3.5.12/9adcc88bb8a610dc1327e3c7b0868a15220c7bc8/neo4j-udc-3.5.12.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-io/3.5.12/48e14a2481b350d6d5b813c9e7b29126703bef/neo4j-io-3.5.12.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\jsse.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.3.8-6/f67bee23f938085bc732ac81f634b922b24f13e6/zstd-jni-1.3.8-6.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.jprocesses/jProcesses/1.6.4/f0d9e30bb02f67bc2d3d9981664f8e57e4ad1f81/jProcesses-1.6.4.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/cldrdata.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-util-3.5/3.5.12/9ddbca7dca4ed3ae1539e2d1b93afc0b3ba6dab1/neo4j-util-3.5-3.5.12.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-values/3.5.12/1cc4a43c94060a03c7fecce37125aeced75751ab/neo4j-values-3.5.12.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/jfxrt.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.eclipse.collections/eclipse-collections-api/9.2.0/d106fd8588e542d2ee9d31d3e057af8bcb813396/eclipse-collections-api-9.2.0.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\rt.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-index/3.5.12/4202ba49a1e77f9bb788ac819b0aa9068ba4d3a1/neo4j-index-3.5.12.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j.licensing-proxy/zstd-proxy/3.5.12/6eca02a46deecdd492cb51f650c251b2fcea48e7/zstd-proxy-3.5.12.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-ir-3.5/3.5.12/bcc2262a2b34b5d17f7ff5a6b5a008b8bb37828b/neo4j-cypher-ir-3.5-3.5.12.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/5.5.5/6c965eb5838a2ba58b0de0fd860a420dcda11937/lucene-queryparser-5.5.5.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-expression-3.4/3.4.15/a0869aee6d9f928aa1666d7a72f17be4b9de874f/neo4j-cypher-expression-3.4-3.4.15.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.6.2/c8fd8817f9d2b2ced82f8968e0dd943aab557de0/caffeine-2.6.2.jar
+2019-12-07 21:00:52.887+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-matching/3.1.9/5265d2eb2cc8df7bc66034b730d86be936ec76a9/neo4j-graph-matching-3.1.9.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/d0c46320fbc07be3a24eb13a56cee4e3d38e0c75/bcpkix-jdk15on-1.60.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-spatial-index/3.5.12/c8f4929a41148c115f5cfce0112774108f5244c1/neo4j-spatial-index-3.5.12.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher/3.5.12/20d07f258ef04a3cea5dee705a9cdfc0bb1ad374/neo4j-cypher-3.5.12.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-ssl/3.5.12/ce57ce497ee27277f7949d422f68ff1c6909aa72/neo4j-ssl-3.5.12.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-spi-3.4/3.4.15/2087b04c1014ec7b146923f120572c651964bfab/neo4j-cypher-planner-spi-3.4-3.4.15.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/6.2/a9690730f92cc79eeadc20e400ebb41eccce10b1/asm-util-6.2.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.profesorfalken/jPowerShell/1.9/22a7cdf6e460b9738e751bef9634b1b7cee55130/jPowerShell-1.9.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-upgrade/3.5.12/fbcbd74949748c49c3cec40cc7b7d9c2b73c93b4/neo4j-lucene-upgrade-3.5.12.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\classes
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunmscapi.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-index/3.5.12/af8be7aea23518670c853be07cb3aa0d7029f521/neo4j-lucene-index-3.5.12.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-2.3/2.3.12/72ac3a861e32b681461d74523bfdadeeb6f8a72b/neo4j-cypher-compiler-2.3-2.3.12.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-logical-plans-3.5/3.5.12/626d9c7d049202f7ae16f755a1e3d1a265714b62/neo4j-cypher-logical-plans-3.5-3.5.12.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-util-3.4/3.4.15/93e1cd46d31435dcc0f0ad1ce802509a605385c/neo4j-cypher-util-3.4-3.4.15.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-3.5/3.5.12/5a888b319d55e99d29244574008a2da4754caa24/neo4j-cypher-planner-3.5-3.5.12.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-3.1/3.1.9/6bec4dee36c05a56d19791cacc887d815ebbefd7/neo4j-cypher-compiler-3.1-3.1.9.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.19/7e65777fb451ddab6a9c054beb879e521b7eab78/commons-compress-1.19.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-dbms/3.5.12/ef4a8f9d6f1bdbeed627a38f47727d91ad790418/neo4j-dbms-3.5.12.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.32.Final/4bdf6727530e7eb14c597056730724533ad96648/netty-all-4.1.32.Final.jar
+2019-12-07 21:00:52.888+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/IdeaProjects/Planathon2/build/classes/java/main/
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-scala_2.11/1.1.7/4e14ecb11f40f25216ce01dc349f541bc801354f/parboiled-scala_2.11-1.1.7.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-import-tool/3.5.12/9b2550cd3a80e2287ac3273177374b8506fd9028/neo4j-import-tool-3.5.12.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-jmx/3.5.12/10d0179548dc45544f56bb06dce653dbcf6dc1ec/neo4j-jmx-3.5.12.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-ast-3.5/3.5.12/6a9fdc4c364077cd73d029723fb5d6ac89d13a9/neo4j-ast-3.5-3.5.12.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-resource/3.5.12/5bcd93454517cdeec58d2f546847d794d9d8d044/neo4j-resource-3.5.12.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-parser-3.5/3.5.12/9b3954e2da84988c9fb9ec5efb88c2fd2050c28/neo4j-parser-3.5-3.5.12.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/jaccess.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graphdb-api/3.5.12/f187f4dc26d5314d174b3984b9518f8917a8344/neo4j-graphdb-api-3.5.12.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/openCypher-frontend-1/3.4.15/bc01696eeac3d7213666dfb5a75f641d9fc20be2/openCypher-frontend-1-3.4.15.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-data-collector/3.5.12/72a0b7d241321ddacef693cbfe35ea18d174de99/neo4j-data-collector-3.5.12.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/5.5.5/c34bcd9274859dc07cfed2a935aaca90c4f4b861/lucene-core-5.5.5.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/dnsns.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-logging/3.5.12/426e9d2c9e2235f9aafbe8229982ebf68efdfa9c/neo4j-logging-3.5.12.jar
+2019-12-07 21:00:52.889+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel/3.5.12/cbe91da3ac0ee4add15268f7a085e3df4c68a3ed/neo4j-kernel-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-common/3.5.12/bd613039d6ab79811a7890fdf407ddaf9d0a38e7/neo4j-common-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/6.2/c7d9a90d221cbb977848d2c777eb3aa7637e89df/asm-analysis-6.2.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-concurrent/3.5.12/bd8a6080aa4003612fe3b6aa4dbcd934dec207fd/neo4j-concurrent-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-planner-3.4/3.4.15/7fcb6e2aa4c35af66d6068bf7838564e6c04535/neo4j-cypher-planner-3.4-3.4.15.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-codecs/5.5.5/e62864e51b3db16766d400b718ec848b3d66db6/lucene-codecs-5.5.5.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.12/2bb23c13c527566d9828107ca4108be2a2c06f01/scala-reflect-2.11.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-expressions-3.5/3.5.12/8e8b7fd97b80f0fa87f02dd3e6c00b4097d68c42/neo4j-expressions-3.5-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-consistency-check/3.5.12/1c4e84f3ce4064e83e86f2997af9325e4d0d8a48/neo4j-consistency-check-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-interpreted-runtime/3.5.12/dddfc2925e7e44072c5da0c8aa315ca2d481181b/neo4j-cypher-interpreted-runtime-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-unsafe/3.5.12/7a26b39485b9c488b87f6f37a2c24270ea79f7f3/neo4j-unsafe-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-codegen/3.5.12/2fa8c5e02a7c766a66dfdc33b056cfca423bfa8a/neo4j-codegen-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-procedure-api/3.5.12/df9ab7cec46f0b224d53c88911873400806b15e8/neo4j-procedure-api-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j/3.5.12/40d526ce3e2cb9cdadfcbbb7b648ede3a401a0e8/neo4j-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/IdeaProjects/Planathon2/build/resources/main
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-runtime-util/3.5.12/fe98307f6c28b383600059ff2127a64729a959ca/neo4j-cypher-runtime-util-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/6.2/61570e046111559f38d4e0e580c005f75988c0a6/asm-tree-6.2.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-legacy/3.5.12/4e2d09bb10e091560a3c0be6795e2beb7de4011/neo4j-legacy-3.5.12.jar
+2019-12-07 21:00:52.890+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-3.1/3.1.9/239d40944641be2f8d453d9823ec3d195ff6d61/neo4j-cypher-frontend-3.1-3.1.9.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/5.5.5/e6b3f5d1b33ed24da7eef0a72f8062bd4652700c/lucene-analyzers-common-5.5.5.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/2eaf3d3c9746d526ff7e5b93931d482c3887e6ac/concurrentlinkedhashmap-lru-1.4.2.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/nashorn.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_212/jre/lib/ext/sunpkcs11.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.4/680b74de9c393bbf8d9e951af301659b16845907/commons-text-1.4.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_212\jre\lib\charsets.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-configuration/3.5.12/6138d2a7581612314b8644411186798a8f73d54d/neo4j-configuration-3.5.12.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-ir-3.4/3.4.15/7ef83a5763f7a5e79f175418d5c32d576a209ab5/neo4j-cypher-ir-3.4-3.4.15.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-front-end-3.5/3.5.12/143f5822a623175dcba5c29f41ddd98ac01f2efc/neo4j-front-end-3.5-3.5.12.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/w1730769/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-annotation-processors/3.5.12/e81002f65e7900e3d1791333b3cbd1d2858e6319/neo4j-annotation-processors-3.5.12.jar
+2019-12-07 21:00:52.891+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2019-12-07 21:00:52.892+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_212\bin
+2019-12-07 21:00:52.892+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\Sun\Java\bin
+2019-12-07 21:00:52.892+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-07 21:00:52.892+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2019-12-07 21:00:52.893+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
+2019-12-07 21:00:52.893+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Python37\Scripts
+2019-12-07 21:00:52.894+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Python37
+2019-12-07 21:00:52.933+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+2019-12-07 21:00:52.933+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-07 21:00:52.933+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2019-12-07 21:00:52.933+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\wbem
+2019-12-07 21:00:52.934+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-07 21:00:52.934+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\OpenSSH
+2019-12-07 21:00:52.934+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_212\bin
+2019-12-07 21:00:52.934+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\dotnet
+2019-12-07 21:00:52.935+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+2019-12-07 21:00:52.935+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn
+2019-12-07 21:00:52.935+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\w1730769\AppData\Local\Microsoft\WindowsApps
+2019-12-07 21:00:52.936+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\w1730769\AppData\Local\Programs\Git\cmd
+2019-12-07 21:00:52.936+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:52.936+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_212\jre\bin
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = ;
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding.pkg = sun.io
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] user.script = 
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = US
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = 
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = C:\Users\w1730769\IdeaProjects\Planathon2
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] user.variant = 
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = Cp1252
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = C:\Users\w1730769
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = America/Los_Angeles
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = windows-1252
+2019-12-07 21:00:52.937+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = w1730769
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = Main
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = en
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = \
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = windows
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = amd64
+2019-12-07 21:00:52.938+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2019-12-07 21:00:52.962+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2018g (available for 599 zone identifiers)
+2019-12-07 21:00:52.962+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2019-12-07 21:00:53.130+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Software Loopback Interface 1:
+2019-12-07 21:00:53.130+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft 6to4 Adapter:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 165.196.100.44
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft IP-HTTPS Platform Adapter:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.56.1
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VMware Virtual Ethernet Adapter for VMnet1:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.198.1
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Bluetooth Device (Personal Area Network):
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Teredo Tunneling Adapter:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VMware Virtual Ethernet Adapter for VMnet8:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.40.1
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VirtualBox Host-Only Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:53.131+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-QoS Packet Scheduler-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection (5) I219-LM-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-Virtual WiFi Filter Driver-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-Native WiFi Filter Driver-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-QoS Packet Scheduler-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 8265-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-Symantec Endpoint Protection Firewall-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2019-12-07 21:00:53.132+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2019-12-07 21:00:53.331+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Users\w1730769\IdeaProjects\Planathon2\database
+2019-12-07 21:00:53.375+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Users\w1730769\IdeaProjects\Planathon2\database
+2019-12-07 21:00:53.375+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_4[v0.A.9]
+2019-12-07 21:00:53.930+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job registered
+2019-12-07 21:00:53.932+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job started
+2019-12-07 21:00:53.948+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job finished: Number of pages visited: 2, Number of cleaned crashed pointers: 0, Time spent: 13ms
+2019-12-07 21:00:53.948+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job closed
+2019-12-07 21:00:53.948+0000 INFO [o.n.k.NeoStoreDataSource] No check point found in transaction log
+2019-12-07 21:00:53.949+0000 INFO [o.n.k.NeoStoreDataSource] Recovery required from position LogPosition{logVersion=0, byteOffset=16}
+2019-12-07 21:00:53.960+0000 INFO [o.n.k.r.Recovery]   10% completed
+2019-12-07 21:00:53.960+0000 INFO [o.n.k.r.Recovery]   20% completed
+2019-12-07 21:00:53.960+0000 INFO [o.n.k.r.Recovery]   30% completed
+2019-12-07 21:00:53.960+0000 INFO [o.n.k.r.Recovery]   40% completed
+2019-12-07 21:00:53.961+0000 INFO [o.n.k.r.Recovery]   50% completed
+2019-12-07 21:00:53.961+0000 INFO [o.n.k.r.Recovery]   60% completed
+2019-12-07 21:00:53.961+0000 INFO [o.n.k.r.Recovery]   70% completed
+2019-12-07 21:00:53.961+0000 INFO [o.n.k.r.Recovery]   80% completed
+2019-12-07 21:00:53.962+0000 INFO [o.n.k.r.Recovery]   90% completed
+2019-12-07 21:00:53.962+0000 INFO [o.n.k.r.Recovery]   100% completed
+2019-12-07 21:00:53.964+0000 INFO [o.n.k.NeoStoreDataSource] No recovery required
+2019-12-07 21:00:53.964+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db.labels] ...
+2019-12-07 21:00:54.018+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2019-12-07 21:00:54.018+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:54.018+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db] ...
+2019-12-07 21:00:54.069+0000 INFO [o.n.k.i.s.NodeStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db] high id=0 (defragged=0)
+2019-12-07 21:00:54.069+0000 INFO [o.n.k.i.s.NodeStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.nodestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:54.069+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index.keys] ...
+2019-12-07 21:00:54.119+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index.keys] high id=1 (defragged=0)
+2019-12-07 21:00:54.119+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:54.120+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index] ...
+2019-12-07 21:00:54.167+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index] high id=0 (defragged=0)
+2019-12-07 21:00:54.168+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.index rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:54.226+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.strings] ...
+2019-12-07 21:00:54.326+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2019-12-07 21:00:54.326+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:54.326+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.arrays] ...
+2019-12-07 21:00:54.385+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2019-12-07 21:00:54.385+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:54.385+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db] ...
+2019-12-07 21:00:54.452+0000 INFO [o.n.k.i.s.PropertyStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db] high id=0 (defragged=0)
+2019-12-07 21:00:54.452+0000 INFO [o.n.k.i.s.PropertyStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.propertystore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:54.452+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipstore.db] ...
+2019-12-07 21:00:54.503+0000 INFO [o.n.k.i.s.RelationshipStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipstore.db] high id=0 (defragged=0)
+2019-12-07 21:00:54.503+0000 INFO [o.n.k.i.s.RelationshipStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:54.503+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db.names] ...
+2019-12-07 21:00:54.556+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db.names] high id=1 (defragged=0)
+2019-12-07 21:00:54.556+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:54.556+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db] ...
+2019-12-07 21:00:54.614+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db] high id=0 (defragged=0)
+2019-12-07 21:00:54.614+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshiptypestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:54.724+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db.names] ...
+2019-12-07 21:00:54.793+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db.names] high id=1 (defragged=0)
+2019-12-07 21:00:54.793+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:54.793+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db] ...
+2019-12-07 21:00:54.861+0000 INFO [o.n.k.i.s.LabelTokenStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db] high id=0 (defragged=0)
+2019-12-07 21:00:54.862+0000 INFO [o.n.k.i.s.LabelTokenStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.labeltokenstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-07 21:00:54.926+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.schemastore.db] ...
+2019-12-07 21:00:54.984+0000 INFO [o.n.k.i.s.SchemaStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.schemastore.db] high id=1 (defragged=0)
+2019-12-07 21:00:54.984+0000 INFO [o.n.k.i.s.SchemaStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:54.984+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipgroupstore.db] ...
+2019-12-07 21:00:55.034+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2019-12-07 21:00:55.034+0000 INFO [o.n.k.i.s.RelationshipGroupStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2019-12-07 21:00:55.035+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore] ...
+2019-12-07 21:00:55.093+0000 INFO [o.n.k.i.s.MetaDataStore] [C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore] high id=15 (defragged=0)
+2019-12-07 21:00:55.093+0000 INFO [o.n.k.i.s.MetaDataStore] C:\Users\w1730769\IdeaProjects\Planathon2\database\neostore rebuild id generator, highId=15 defragged count=0
+2019-12-07 21:00:55.103+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2019-12-07 21:00:55.104+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1575752407428, randomId=-3538954348407785988, storeVersion=16094931155187206, upgradeTime=1575752407428, upgradeId=1}
+2019-12-07 21:00:55.104+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: 3.5.12,f4f02a725dc05d043a71684ce5d6f22f0c323378
+2019-12-07 21:00:55.104+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2019-12-07 21:00:55.106+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2019-12-07 21:00:55.106+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2019-12-07 21:00:55.106+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-07 21:00:55.107+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2019-12-07 21:00:55.107+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:55.107+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2019-12-07 21:00:55.107+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:55.107+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-07 21:00:55.107+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2019-12-07 21:00:55.108+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2019-12-07 21:00:55.108+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:55.108+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2019-12-07 21:00:55.108+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-07 21:00:55.109+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2019-12-07 21:00:55.109+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2019-12-07 21:00:55.109+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2019-12-07 21:00:55.109+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2019-12-07 21:00:55.109+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2019-12-07 21:00:55.109+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2019-12-07 21:00:55.109+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2019-12-07 21:00:55.111+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-07 21:00:55.111+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=0 high=-1
+2019-12-07 21:00:55.111+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:55.111+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2019-12-07 21:00:55.111+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:55.111+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-07 21:00:55.111+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2019-12-07 21:00:55.111+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2019-12-07 21:00:55.112+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:55.112+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2019-12-07 21:00:55.112+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-07 21:00:55.112+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2019-12-07 21:00:55.112+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2019-12-07 21:00:55.112+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2019-12-07 21:00:55.113+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2019-12-07 21:00:55.113+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2019-12-07 21:00:55.113+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2019-12-07 21:00:55.113+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2019-12-07 21:00:55.114+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1575752407428
+2019-12-07 21:00:55.114+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): -3538954348407785988
+2019-12-07 21:00:55.114+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2019-12-07 21:00:55.114+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2019-12-07 21:00:55.115+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2019-12-07 21:00:55.115+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2019-12-07 21:00:55.115+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2019-12-07 21:00:55.115+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2019-12-07 21:00:55.115+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1575752407428
+2019-12-07 21:00:55.115+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2019-12-07 21:00:55.115+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2019-12-07 21:00:55.116+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2019-12-07 21:00:55.116+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2019-12-07 21:00:55.116+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2019-12-07 21:00:55.116+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2019-12-07 21:00:55.117+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2019-12-07 21:00:55.117+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2019-12-07 21:00:55.118+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2019-12-07 21:00:55.119+0000 INFO [o.n.i.d.DiagnosticsManager] No transactions found in any log
+2019-12-07 21:00:55.119+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2019-12-07 21:00:55.122+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2019-12-07 21:00:55.124+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 322174971904 / 181995315200 / 56
+2019-12-07 21:00:55.125+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2019-12-07 21:00:55.127+0000 INFO [o.n.i.d.DiagnosticsManager]   index:
+2019-12-07 21:00:55.128+0000 INFO [o.n.i.d.DiagnosticsManager]   - Total: 2019-12-07T13:00:07-0800 - 0.00 B
+2019-12-07 21:00:55.129+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2019-12-07T13:00:07-0800 - 8.00 kB
+2019-12-07 21:00:55.129+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2019-12-07T13:00:08-0800 - 96.00 B
+2019-12-07 21:00:55.129+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2019-12-07T13:00:55-0800 - 9.00 B
+2019-12-07 21:00:55.130+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2019-12-07T13:00:53-0800 - 40.00 kB
+2019-12-07 21:00:55.130+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2019-12-07T13:00:07-0800 - 0.00 B
+2019-12-07 21:00:55.130+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.131+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:55.131+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.132+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2019-12-07T13:00:05-0800 - 0.00 B
+2019-12-07 21:00:55.133+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.133+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2019-12-07T13:00:05-0800 - 8.00 kB
+2019-12-07 21:00:55.133+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2019-12-07T13:00:53-0800 - 9.00 B
+2019-12-07 21:00:55.134+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2019-12-07T13:00:06-0800 - 0.00 B
+2019-12-07 21:00:55.134+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:55.135+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.135+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.135+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2019-12-07T13:00:05-0800 - 0.00 B
+2019-12-07 21:00:55.136+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.136+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2019-12-07T13:00:05-0800 - 8.00 kB
+2019-12-07 21:00:55.137+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.137+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:55.137+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.138+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2019-12-07T13:00:07-0800 - 8.00 kB
+2019-12-07 21:00:55.138+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2019-12-07T13:00:55-0800 - 9.00 B
+2019-12-07 21:00:55.139+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2019-12-07T13:00:06-0800 - 0.00 B
+2019-12-07 21:00:55.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.140+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2019-12-07T13:00:06-0800 - 0.00 B
+2019-12-07 21:00:55.141+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.141+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2019-12-07T13:00:06-0800 - 8.00 kB
+2019-12-07 21:00:55.142+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.142+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2019-12-07T13:00:07-0800 - 8.00 kB
+2019-12-07 21:00:55.143+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2019-12-07T13:00:54-0800 - 9.00 B
+2019-12-07 21:00:55.143+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2019-12-07T13:00:08-0800 - 16.00 B
+2019-12-07 21:00:55.144+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2019-12-07 21:00:55.144+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 112.24 kB
+2019-12-07 21:00:55.144+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2019-12-07 21:00:55.145+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2019-12-07 21:00:55.145+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database database available.
+2019-12-07 21:00:55.145+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database database is ready.
+2019-12-07 21:00:55.146+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK

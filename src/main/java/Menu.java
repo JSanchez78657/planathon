@@ -4,6 +4,7 @@ public class Menu {
 
     public Menu(){
         Scanner input = new Scanner(System.in);
+
         int selection;
         do {
             System.out.println("Main Menu:");
@@ -52,6 +53,7 @@ public class Menu {
         hour = input.nextInt();
         System.out.println("Minute: ");
         minute = input.nextInt();
+        System.out.println();
         LocalDateTime date = LocalDateTime.of(year, month, day, hour, minute);
         System.out.println(date);
     }

@@ -1,10 +1,14 @@
+import org.neo4j.cypher.internal.frontend.v2_3.ast.functions.Str;
 import org.neo4j.graphdb.*;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
+import org.neo4j.kernel.impl.factory.GraphDatabaseFacade;
 
+import javax.xml.crypto.Data;
 import java.io.File;
+import java.nio.file.Files;
+import java.time.LocalDateTime;
+import java.util.*;
 import java.time.ZonedDateTime;
-import java.util.Dictionary;
-import java.util.Hashtable;
 public class Database {
 
     private GraphDatabaseService db;
@@ -24,7 +28,7 @@ public class Database {
     {
         ATTENDING,
         NEEDED,
-        BRINGING;
+        BRINGING
     }
 
     public Database(String filename) {
@@ -34,7 +38,7 @@ public class Database {
 
     public Dictionary data = new Hashtable();
 
-    public Node addEvent(String event_name, ZonedDateTime date, String location)
+    public Node addEvent(String event_name, LocalDateTime date, String location)
     {
         Node node;
         try (Transaction tx = db.beginTx())
@@ -76,6 +80,18 @@ public class Database {
         }
         catch(TransactionFailureException t) { return null; }
         return node;
+    }
+
+    public ResourceIterator<Node> getPeople()
+    {
+        ResourceIterator<Node> nodes;
+        try (Transaction tx = db.beginTx())
+        {
+            nodes = db.findNodes(PERSON);
+            tx.success();
+        }
+        catch(TransactionFailureException t) { return null; }
+        return nodes;
     }
 
     public ResourceIterator<Node> getPerson(String name)
